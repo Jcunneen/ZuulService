@@ -15,7 +15,7 @@ public class ZuulApplication {
 		SpringApplication.run(ZuulApplication.class, args);
 	}
 	
-	//a currently useless filter, but if we want one, update SimplePreFilter
+	//a currently empty filter, but if we want one, update SimplePreFilter
 	@Bean
 	public SimplePreFilter simplePreFilter() {
 		return new SimplePreFilter();
