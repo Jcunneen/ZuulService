@@ -9,6 +9,7 @@ eureka:
   client:
     serviceUrl:
       defaultZone: https://eureka-b661b63f-4fcf-4b9d-9274-8b49018cb596.cfapps.io
+    register-with-eureka: false
     
 zuul:
   routes:
