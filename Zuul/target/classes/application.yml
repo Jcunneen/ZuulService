@@ -15,10 +15,10 @@ zuul:
   routes:
     SkelopsProducer:
       path: /trex/addTRex
-      service-id: SKELOPSPRODUCER
+      url: https://skelopsproducer.cfapps.io
     
     SkelopsDemo:
       path: /trex/all
-      service-id: SKELOPSDEMO
+      url: https://skelopsdemo.cfapps.io
 
     
