@@ -15,10 +15,10 @@ zuul:
   routes:
     SkelopsProducer:
       path: /trex/addTRex
-      service-id: SKELOPSPRODUCER
+      service-id: SkelopsProducer
     
     SkelopsDemo:
       path: /trex/all
-      service-id: SKELOPSDEMO
+      service-id: SkelopsDemo
 
     
