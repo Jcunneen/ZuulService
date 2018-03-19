@@ -13,11 +13,11 @@ eureka:
 zuul:
   routes:
     SkelopsProducer:
-      path: /SkelopsProducer/**
+      path: /trex/addTRex
       service-id: SkelopsProducer
     
     SkelopsDemo:
-      path: /SkelopsDemo/**
+      path: /trex/all
       service-id: SkelopsDemo
 
     
